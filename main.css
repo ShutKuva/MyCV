@@ -1,0 +1,91 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.change-display-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header */
+
+header {
+  flex: 1 0 auto;
+  background: #eeeeee;
+  padding: 1em 0;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.header-sign {
+  color: #494949;
+}
+
+/* Main */
+
+main {
+  flex: 128 0 auto;
+  width: 100%;
+}
+
+.main-photo {
+  display: block;
+  margin: 1em auto;
+  border-radius: 100em;
+  border: 6px solid #4d4d4d;
+  height: 15em;
+}
+
+.main-photo-title {
+  text-align: center;
+}
+
+.abilities {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ability {
+  text-align: center;
+}
+
+.ability-photo {
+  border-radius: 100em;
+  border: 4px solid #b8b8b8;
+  height: 10em;
+}
+
+/* Footer */
+
+footer {
+  align-items: center;
+  padding: 1em 0;
+  flex: 10 0 auto;
+  background: #eeeeee;
+}
+
+.footer-title {
+  margin: auto 0;
+}
